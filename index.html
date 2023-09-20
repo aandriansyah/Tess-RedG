@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>REDG</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- burger auto close nav -->
+  <script>
+    $(document).ready(function () {
+      $(".navbar-nav a").on("click", function () {
+        $("#navbarNavAltMarkup").collapse("hide");
+      });
+    });
+  </script>
+  <!-- burger auto close nav -->
+</head>
+  <body>
+    <!-- ======================================== -->
+    <!--                TOP BAR                   -->
+    <!-- ======================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo.png" alt="" style="width: 6vw;">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="navbarToggleBtn">
+          <span class="navbar-toggler-icon"></span>
+        </button>        
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#profil">Profil</a>
+            <a class="nav-link" href="#layanan">Layanan</a>
+            <a class="nav-link" href="#struktur">Struktur Organisasi</a>
+            <a class="nav-link" href="#kontak">Kontak</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- ======================================== -->
+    <!--            END TOP BAR                   -->
+    <!-- ======================================== -->
+
+
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-6 d-flex align-items-center">
+            <div class="hero-content">
+              <h1 class="mb-4">PT RAHARJA ENERGI DIGDAYA GROUP</h1>
+              <p class="mb-4">We Make The Best Tradition For Services, Developer & Management</p>          
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="assets/People.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<br><br><br><br><br><br>
+<section class="profil-section" id="profil">
+  <div class="container mt-5">
+      <div class="row">
+          <div class="col text-center">
+              <h1 class="mb-4">PROFIL PERUSAHAAN</h1>
+              <p>PT RAHARJA ENERGI DIGDAYA GROUP didirikan pada tanggal 19 Januari 2023 dan bergerak di bidang ekspansi bisnis di sektor General Public Services sebagai penyedia Sumber Daya Manusia & Manajemen Fungsi Sumber Daya Manusia. Kami juga bergerak dalam konstruksi bangunan lainnya & pabrikasi. Dengan dukungan penuh dari mitra, kami memiliki komitmen dan kewajiban untuk meningkatkan kepercayaan, kualitas, dan profesionalisme sumber daya manusia dalam upaya untuk memenuhi kebutuhan dan keinginan pelanggan.</p>
+          </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card h-100" style="background-color: #007BFF; color: white;">
+                <div class="card-body">
+                    <h4 class="card-title">VISI</h4>
+                    <p class="card-text">Menjadi perusahaan terbaik di bidang General Public Services dan konstruksi nasional maupun internasional berbasiskan pada pengembangan teknologi informasi. Meningkatkan kesejahteraan masyarakat melalui Corporate Social Responsibility secara berkelanjutan.</p>
+                </div>
+            </div>
+        </div>
+      
+        <div class="col-md-4">
+            <div class="card h-100" style="background-color: #28A745; color: white;">
+                <div class="card-body">
+                    <h4 class="card-title">MISI</h4>
+                    <p class="card-text">Memberikan kualitas terbaik dalam bidang konstruksi, pembangunan, dan pengembangan kawasan Pabrikasi. Meningkatkan dan menyediakan sumber daya manusia yang jujur, terampil, dan profesional di bidangnya.</p>
+                </div>
+            </div>
+        </div>
+      
+        <div class="col-md-4">
+            <div class="card h-100" style="background-color: #DC3545; color: white;">
+                <div class="card-body">
+                    <h4 class="card-title">TUJUAN</h4>
+                    <p class="card-text">Memberikan kebanggaan dan kebahagiaan bagi shareholder, stakeholder, dan masyarakat di Indonesia.</p>
+                  </div>
+            </div>
+        </div>
+      </div>
+      
+</section>
+
+<br><br><br><br><br><br>
+
+<section class="layanan-section" id=layanan padding: 50px 0; background: linear-gradient(135deg, #2980B9, #6DD5FA);">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: #020202;">LAYANAN JASA PERUSAHAAN</h2>
+    <div class="row row-cols-1 g-4">
+      <div class="col-6">
+        <div class="card border-0 shadow p-2" style="background-color: #fff; color: #333;">
+          <div class="aspect-ratio-box">
+            <img src="assets/perumahan.jpeg" class="card-img-top img-fluid" alt="Perumahan">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title col text-center">Perumahan</h5>
+           <div class="col text-center"><button type="button" class="btn btn-primary btn-sm col" data-bs-toggle="modal" data-bs-target="#boxperumahan">
+              Lihat Galeri
+            </button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card border-0 shadow p-2" style="background-color: #fff; color: #333;">
+          <div class="aspect-ratio-box">
+            <img src="assets/Sapi/susi.jpg" class="card-img-top img-fluid" alt="Peternakan">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title col text-center">Peternakan</h5>
+            <div class="col text-center"><button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#peternakan">
+              Lihat Galeri
+            </button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card border-0 shadow p-2" style="background-color: #fff; color: #333;">
+          <div class="aspect-ratio-box">
+            <img src="assets/Otsourcing.jpg" class="card-img-top img-fluid" alt="Outsourcing">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title col text-center" >Outsourcing</h5>
+            <div class="col text-center"> <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#outsourcing">
+              Lihat Galeri
+            </button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card border-0 shadow p-2" style="background-color: #fff; color: #333;">
+          <div class="aspect-ratio-box">
+            <img src="assets/konveksi.jpeg" class="card-img-top img-fluid" alt="Konveksi">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title  col text-center">Konveksi</h5>
+            <div class="col text-center"><button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#konveksi">
+              Lihat Galeri
+            </button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+   
+        <!-- ================================================= -->
+        <!--                MODAL BOX PELAYANAN                -->
+        <!-- ================================================= -->
+
+<!-- peternakan -->
+
+<div class="modal fade" id="peternakan" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Galery Peternakan Sapi</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+     <!-- Gallery peternakan-->
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" style="height: auto;">
+    <img
+      src="assets/Sapi/joni.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Joni"
+    />
+
+    <img
+      src="assets/Sapi/susi.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Susi"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets/Sapi/asep.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Asep"
+    />
+
+    <img
+      src="/assets/Sapi/karim.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="karim"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="assets/Sapi/cecep.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="/assets/Sapi/siska.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+
+  </div>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end gallery peternakan -->
+
+
+<!-- perumahan-->
+<div class="modal fade" id="boxperumahan" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        uyuy
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- outsorcing -->
+<div class="modal fade" id="outsorcing" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        uyuy
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- konveksi -->
+<div class="modal fade" id="konveksi" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        uyuy
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
+
+        <!-- ================================================= -->
+        <!--              END MODAL BOX PELAYANAN                -->
+        <!-- ================================================= -->
+ </section>
+
+<br><br><br>
+  
+   <section class="struktur-section"  id="struktur">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Struktur Organisasi Perusahaan</h1>
+        </div>
+      </div>
+      <br><br>
+      <div class="row justify-content-center">
+        <div class="col-2 mb-4 text-center"> <!-- Menambahkan class text-center -->
+          <div class="card">
+            <img src="assets/profil.png" class="card-img-top" alt="Foto Profil 1">
+            <div class="card-body text-center">
+              <h5 class="card-title">Nama Karyawan 1</h5>
+              <p class="card-text text-truncate">Jabatan 1 yang agak panjang</p> <!-- Menambahkan class text-truncate -->
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-2 mb-4 text-center"> <!-- Menambahkan class text-center -->
+          <div class="card">
+            <img src="assets/profil.png" class="card-img-top" alt="Foto Profil 2">
+            <div class="card-body text-center">
+              <h5 class="card-title">Nama Karyawan 2</h5>
+              <p class="card-text text-truncate">Jabatan 2 yang agak panjang</p> <!-- Menambahkan class text-truncate -->
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-2 mb-4 text-center"> <!-- Menambahkan class text-center -->
+          <div class="card">
+            <img src="assets/profil.png" class="card-img-top" alt="Foto Profil 3">
+            <div class="card-body text-center">
+              <h5 class="card-title">Nama Karyawan 3</h5>
+              <p class="card-text text-truncate">Jabatan 3 yang agak panjang</p> <!-- Menambahkan class text-truncate -->
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-2 mb-4 text-center"> <!-- Menambahkan class text-center -->
+          <div class="card">
+            <img src="assets/profil.png" class="card-img-top" alt="Foto Profil 4">
+            <div class="card-body text-center">
+              <h5 class="card-title">Nama Karyawan 4</h5>
+              <p class="card-text text-truncate">Jabatan 4 yang agak panjang</p> <!-- Menambahkan class text-truncate -->
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-2 mb-4 text-center"> <!-- Menambahkan class text-center -->
+          <div class="card">
+            <img src="assets/profil.png" class="card-img-top" alt="Foto Profil 5">
+            <div class="card-body text-center">
+              <h5 class="card-title">Nama Karyawan 5</h5>
+              <p class="card-text text-truncate">Jabatan 5 yang agak panjang</p> <!-- Menambahkan class text-truncate -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+    
+<br><br>
+    <section class="kontak-section" id="kontak">                  
+      <footer class="bg-dark text-white py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Kontak</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://wa.me/087766771477" target="_blank" style="color: #FFFFFF; text-decoration: none;">WhatsApp<br>087766771477</a></li>
+                <br>
+                <li><a href="mailto:info@example.com" style="color: #FFFFFF; text-decoration: none;">E-mail<br>@example.com</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Media Sosial</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.instagram.com/example/" target="_blank" style="color: #FFFFFF; text-decoration: none;">Instagram</a></li>
+                <li><a href="https://www.youtube.com/user/example" target="_blank" style="color: #FFFFFF; text-decoration: none;">Youtube</a></li>
+                <li><a href="https://twitter.com/example" target="_blank" style="color: #FFFFFF; text-decoration: none;">Twitter</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Alamat Perusahaan</h4>
+              <address style="color: #FFFFFF;">
+                <a href="" style="color: #FFFFFF; text-decoration: none;">Komp. Permata Biru Blok AT No. 56 Jawa Barat Cileunyi Cinunuk</a>
+              </address>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-12 text-center">
+              <p style="color: #FFFFFF;">&copy; PT Raharja Energi Digdaya Group. Hak Cipta Dilindungi 2023.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+</body>
+</html>
